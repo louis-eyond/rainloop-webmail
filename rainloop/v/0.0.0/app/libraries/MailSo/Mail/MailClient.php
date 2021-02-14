@@ -2196,7 +2196,7 @@ class MailClient
 
 			$aFilteredNames = array(
 				'inbox',
-				'sent', 'send', 'outbox', 'sentmail', 'sendmail',
+				'sent', 'send', 'sentmail', 'sendmail', //remove 'outbox' from options, results in duplicate emails being sent by mail server
 				'drafts', 'draft',
 				'junk', 'spam', 'spambucket',
 				'trash', 'bin', 'deleted',
